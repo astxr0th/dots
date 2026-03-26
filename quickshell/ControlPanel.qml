@@ -381,7 +381,7 @@ PanelWindow {
                             Behavior on color { ColorAnimation { duration: 200 } }
                         }
                         Text {
-                            text: "Głośność"; color: Theme.subtext; font.pixelSize: 11
+                            text: "Volume"; color: Theme.subtext; font.pixelSize: 11
                             font.family: Theme.fontUI; Layout.leftMargin: 4
                         }
                         Item { Layout.fillWidth: true }

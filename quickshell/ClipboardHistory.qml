@@ -362,7 +362,7 @@ PanelWindow {
                             ColumnLayout { Layout.fillWidth: true; spacing: 5
                                 Text { text: "Obraz"; color: GlobalState.dynAccent; font.pixelSize: 12; font.family: Theme.fontUI; font.weight: 700 }
                                 Text {
-                                    text: cDel.imgSrc !== "" ? "Kliknij aby skopiować" : "Dekodowanie..."
+                                    text: cDel.imgSrc !== "" ? "Cliquez pour copier" : "Dekodowanie..."
                                     color: Theme.muted; font.pixelSize: 11; font.family: Theme.fontUI
                                 }
                             }
